@@ -17,14 +17,28 @@ int main()
     printf("Age:");
     scanf("%d",age);
 
-    printf("Grade 1:");
+    printf("grade1:");
     scanf("%d",grade1);
 
-    printf("Grade 2:");
+    printf("grade2:");
     scanf("%d", grade2)
 
-    printf("Grade 3:");
+    printf("grade1:");
     scanf("%d", grade3);
 
+    int average = (grade1 + grade2 + grade3) / 3.0;
 
+printf("\n********** Student Summary **********\n\n");
+
+printf("Student Rating    :%c\n", rating);
+printf("Student Summary   :%d\n", ID);
+printf("Age               :%d\n", age);
+printf("Average Grade     : %.2f\n", average);
+
+printf("\nAge Fromatting : \n");
+printf("Normal   : %d\n", age);
+printf("Width 5  : %5d\n", age);
+printf("Zero-pad : %05d\n", age);
+
+return 0;
 }
